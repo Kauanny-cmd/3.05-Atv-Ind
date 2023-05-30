@@ -1,0 +1,27 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-top:80px;
+  margin-bottom:-60px;
+}
+
+.messages{
+  width: 881px;
+  height: 74px;
+  background: #E5E1E6;
+  border: 1px solid #F0EAEA;
+  border-radius: 9px;
+  margin-bottom:34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.messages p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 160%;
+}
