@@ -49,6 +49,9 @@ function App() {
             messages={messages}
           />
         </main>
+        <footer>
+          <p>Feito com 💜 por kakauzu</p>
+        </footer>
       </div>
     </div>
   )
