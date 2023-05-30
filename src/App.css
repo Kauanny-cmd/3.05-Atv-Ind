@@ -1,0 +1,129 @@
+.allContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 24px 72px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--white-100);
+  height: 60rem;
+  width: 62rem;
+  border-radius: 40px;
+  border: none;
+}
+
+main{
+  padding: 80px 0px 80px 0px;
+}
+
+.top{
+  width: 168px;
+  height: 68px;
+  border-radius: 50px;
+  background-color: var(--top-color);
+  color:var(--top-color);
+}
+
+.top-container {
+  width: 100%;
+}
+
+.text-title{
+  width: 673px;
+  height: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.text-title a{
+  color: var(--purple-600);
+}
+
+.text-subtitle{
+  width: 421px;
+  height: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.carInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0px 80px 0px;
+}
+
+.plateCar{
+  width: 194px;
+  height: 50px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 41.0955px;
+  line-height: 50px;
+}
+
+.plateInfo{
+  width: 207px;
+  height: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24.6573px;
+  line-height: 30px;
+}
+
+.messageInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.messageInfo input{
+  width: 500px;
+  height: 64px; 
+  background: #F5EDF7;
+  border-radius: 24px;
+  border: none;
+  margin-right: 32px;
+  padding: 18px 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.messageInfo button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px 14px;
+  gap: 10px;
+  width: 108px;
+  height: 49px;
+  background:var(--gray-500);
+  border-radius: 8px;
+  border: none;
+  color: var(--white);
+  margin-right: 32px;
+}
+
+.messageInfo img{
+  margin-right: 32px;
+}
